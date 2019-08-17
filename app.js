@@ -108,7 +108,7 @@ App({
         a.code ? e.post("wxapp/login", {
           code: a.code
         }, function(a) {
-          a.error ? e.alert("获取用户登录态失败1:" + a.message) : a.isclose && n && "function" == typeof n ? n(a.closetext, !0) : wx.getUserInfo({
+          a.error ? e.alert("获取用户登录态失败:" + a.message) : a.isclose && n && "function" == typeof n ? n(a.closetext, !0) : wx.getUserInfo({
             success: function(n) {
               i = n.userInfo, e.get("wxapp/auth", {
                 data: n.encryptedData,
@@ -207,9 +207,9 @@ App({
   globalData: {
 
 
-     appid: "wx176d614a68387fbb",
-     api: "https://secai.ahjcg.com/app/ewei_shopv2_api.php?i=2",//生产服务器
-     approot: "https://secai.ahjcg.com/addons/ewei_shopv2/",
+    appid: "wx68a44fe3269273e4",
+     api: "https://sfxcx.ahjcg.com/app/ewei_shopv2_api.php?i=2",//生产服务器
+    approot: "https://sfxcx.ahjcg.com/addons/ewei_shopv2/",
     /*appid: "wx8bcf474e8412012d",
     api: "https://nzm.ahjcg.com/app/ewei_shopv2_api.php?i=2",//测试服务器
     approot: "https://nzm.ahjcg.com/addons/ewei_shopv2/",*/

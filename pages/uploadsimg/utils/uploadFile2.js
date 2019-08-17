@@ -29,7 +29,7 @@ const uploadFile = function (filePath, dir, successc, failc) {
 
 
   wx.request({
-    url: 'https://secaibucket-upload.oss-cn-beijing.aliyuncs.com',
+    url: 'https://seyicaibucket.oss-cn-beijing.aliyuncs.com',
     header: {
       "Content-Type": "application/x-www-form-urlencoded",
       "Authorization": "OSS 6FDB5fftlXxEyZ54obDjpXvtDwHrvC：".signature

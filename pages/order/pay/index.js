@@ -98,7 +98,7 @@ Page({
     console.log('get_list:');
     var t = this;
     e.get("order/pay", t.data.options, function(o) {
-      50018 != o.error ? (!o.wechat.success && "0.00" != o.order.price && o.wechat.payinfo && e.alert(o.wechat.payinfo.message + "\n不能使用微信支付!"),
+      50018 != o.error ? (!o.wechat.success && "0.00" != o.order.price && o.wechat.payinfo && e.alert(o.wechat.payinfo.message + "\n不能使用微信支付!"), 
 
         t.setData({
           list: o,

@@ -246,11 +246,11 @@ Page({
     t=11;//2019-02-12  王 默认值
     //var config = wx.getStorageSync("zjz_config");
     var config={};
-    config.Zheng_api_from=1;
-    config.Zheng_FaceFreeApiKey ="ywXnovZM0ezjIJoUh_pgoPNQzVN7lIxk";
-    config.Zheng_FaceFreeApiSecret = "CPuOiocN8YbKKScseQQjIZ8oELUURmSQ";
-    config.Zheng_FaceApiKey = "hTOlAYF8IxegfPFQl-UWgR-j7LpGDDmN";
-    config.Zheng_FaceApiSecret = "0vynnhSuIdWcIcIDF4cePfU96xtZesJI";
+    config.Zheng_api_from=0;
+    config.Zheng_FaceFreeApiKey ="aT-4NKqGPdsfehC546cz6mkW8jq9_jKN";
+    config.Zheng_FaceFreeApiSecret = "YMX2HNH13fR9MATDbbcw6EtRl80y1yLB";
+    config.Zheng_FaceApiKey = "hstFyihjZ7zij-yL4hsEeMhMxu4oT-Yc";
+    config.Zheng_FaceApiSecret = "qbPCqZAsvoWGRnYYdJmwk2r-FcX4w7Ib";
 
 
 
